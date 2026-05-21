@@ -34,6 +34,15 @@ Thumbs.db
 # Logs
 *.log
 
+# Node / Next.js (web/)
+node_modules/
+.next/
+out/
+.vercel/
+next-env.d.ts
+*.tsbuildinfo
+.pnpm-debug.log*
+
 # Local data — la plantilla vacia y las instrucciones SI se versionan;
 # CSVs reales con datos del equipo de bio quedan fuera del repo publico.
 data/literature/*.csv
