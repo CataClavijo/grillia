@@ -1,0 +1,24 @@
+%% GrillIA — Diagrama Entidad-Relación
+%% Fuente de verdad: backend/db/models.py (SQLAlchemy)
+%% Migración: backend/alembic/versions/f6911fb95e73_initial_tables.py
+erDiagram
+    experiments {
+        integer id PK "autoincrement"
+        timestamp created_at "default now()"
+        varchar_50 tipo_dieta "NOT NULL — V01 codigo de dieta"
+        float alimento_g_dia "NOT NULL — V02 g/dia"
+        float temperatura "NOT NULL — V03 grados C"
+        float humedad_ambiental "NOT NULL — V04 porcentaje"
+        varchar_100 especie "NOT NULL — V07 especie de grillo"
+        integer tiempo_desarrollo "NOT NULL — V08 dias"
+        float fotoperiodo "V05 horas luz/dia"
+        float densidad "V06 ind/m2"
+        integer n_grillos_inicio "V09 conteo inicial"
+        float proteina_harina "V10 TARGET %MS"
+        float lipidos_harina "V11 TARGET %MS"
+        float tasa_supervivencia "V12 porcentaje"
+        float peso_promedio "V13 g/individuo"
+        float biomasa_total "V14 g total cosechado"
+        text observaciones "notas libres"
+        varchar_200 fuente "literatura o experimental + ref"
+    }
