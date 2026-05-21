@@ -6,7 +6,7 @@ mejor dieta de cria de grillos, segun el animal al que va destinada la harina
 contenido de proteina (60-70%) para reemplazar las importaciones de harina de
 pescado en Colombia.
 
-> Aplicacion web del proyecto: **https://grillia.vercel.app**
+> Aplicacion web del proyecto: **https://grilliaa.vercel.app**
 
 - **Financiacion**: Minciencias, Convocatoria 963-2025 (Contrato 207-2025).
 - **Ejecutor**: Universidad de los Llanos.
